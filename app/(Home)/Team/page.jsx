@@ -1,5 +1,6 @@
 import React from "react";
 import { FaLinkedin } from "react-icons/fa";
+import { Himanshu2425, Archit } from "@/public/assets";
 
 import Link from "next/link";
 import Image from "next/image";
@@ -21,6 +22,22 @@ const buttonReg = {
 const page = async () => {
   const committees = await getCommittee();
   // const studentAdvisors = await getAdvisor();
+  const studentAdvisors = [
+    {
+      advisoryDepartment: "Chem-E-Car Advisor",
+      advisor: "Himanshu Singh",
+      linkedin:
+        "https://www.linkedin.com/in/himanshu-singh-319747263?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+      ImageUrl: Himanshu2425,
+    },
+    {
+      advisoryDepartment: "Web Development Advisor",
+      advisor: "Archit Kulshrestha",
+      linkedin:
+        "https://www.linkedin.com/in/architkulshrestha051?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+      ImageUrl: Archit,
+    },
+  ];
   const studentHeads = await getStudentHeads();
   const faculty = await getFaculty();
   return (
@@ -109,7 +126,7 @@ const page = async () => {
           </div>
         ))}
       </div>
-{/* 
+
       <h1 className="md:text-3xl text-2xl font-bold font-heading text-secondary-200 mt-10 decoration-4  decoration-accent-500 underline underline-offset-8  ">
         Student Advisors
       </h1>
@@ -144,7 +161,7 @@ const page = async () => {
             />
           </div>
         ))}
-      </div> */}
+      </div> 
 
       <h1 className="md:text-3xl text-2xl font-bold font-heading text-secondary-200 mt-4 decoration-4  decoration-accent-500 underline underline-offset-8  ">
         Committee Heads

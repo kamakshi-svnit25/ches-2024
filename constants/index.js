@@ -91,17 +91,26 @@ import {
   surbhi,
   dhananjay,
   kaveri,
- atharva,
- nisha,
- priyansu,
- vrushti,
- harish,
- deval,
- shrushti,
- vaishvik,
- ChesNoText,
- Himanshu2425,
- Rahul2425,
+  atharva,
+  nisha,
+  priyansu,
+  vrushti,
+  harish,
+  deval,
+  shrushti,
+  vaishvik,
+  ChesNoText,
+  Himanshu2425,
+  Rahul2425,
+  chemTeam24_1,
+  chemTeam24_2,
+  chemTeam24_3,
+  chemTeam24_4,
+  chemTeam24_5,
+  dolly,
+  navneet,
+  Palak,
+  Yatharth,
 } from "@/public/assets";
 
 export const NavLinks = [
@@ -189,6 +198,30 @@ export const Developers = [
     Linkedin: "https://www.linkedin.com/in/namrata-patil-220714282/",
     ImageUrl: namrata,
   },
+  {
+    position: "Member",
+    name: "Yatharth Neel",
+    Linkedin: "http://www.linkedin.com/in/yatharth-neel-63706a332",
+    ImageUrl: Yatharth,
+  },
+  {
+    position: "Member",
+    name: "Palak Singh",
+    Linkedin: "https://www.linkedin.com/in/palak-singh-a397b9369",
+    ImageUrl: Palak,
+  },
+  {
+    position: "Member",
+    name: "Navneet Yadav",
+    Linkedin: "https://www.linkedin.com/in/navneet-yadav-884b0031b",
+    ImageUrl: navneet,
+  },
+  {
+    position: "Member",
+    name: "Dolly Sharma",
+    Linkedin: "https://www.linkedin.com/in/dolly-sharma-498b7038a",
+    ImageUrl: dolly,
+  },
 ];
 export const AluMillennium = {
   name: "AluMillennium",
@@ -206,6 +239,17 @@ export const Anerobes = {
   img: aneCar,
   design:
     "The car is mounted upon by a lead-acid battery of dimension 10cm*6.5cm*7.5 cm. The battery is charged via the Microbial Fuel Cells (MFCs) that powers the chem-e-car. The stopping mechanism consists of Arduino and a beaker of 50 mL where the stopping reaction takes place.",
+  powerSource:
+    "Microbial Fuel Cells (MFCs) generate electricity by utilizing anaerobic bacteria to oxidize organic matter, releasing electrons. These electrons flow through an external circuit from the anode to the cathode, where they combine with protons which passes through proton exchange membrane and oxygen to form water, completing the electrochemical circuit.This continuous electron flow generates a steady electric current, which can be harnessed to power electrical devices or stored for later use. Although MFCs provide sustainable energy, they generate low and fluctuating power. To power the Chem-E-Car, this energy is stored in a lead-acid battery, which provides a stable, continuous output. The lead-acid battery is charged by the MFC using a diode switch or power management system(PMS), ensuring sufficient power to run the car.",
+  stoppingMechanism:
+    "The stopping mechanism involves a reaction between sodium thiosulfate (Na₂S₂O₃) and hydrochloric acid (HCl), which produces sodium chloride, sulfur, sulfur dioxide, and water. As the reaction progresses, the formation of colloidal sulfur increases the solution’s turbidity, reducing the intensity of light transmitted through the mixture. This change is detected by a sensor, which sends a signal to an Arduino that stops the car’s circuit. The reaction's time vs. concentration graph helps determine the stopping time.",
+};
+
+export const Anerobes2024 = {
+  name: "Anerobes2024",
+  img: chemTeam24_4,
+  design:
+    "The car is powered directly by 8 Microbial Fuel Cell stacks, eliminating the need for an external battery source. The MFC stacks act as the primary energy unit, generating electricity through biochemical processes to fuel the Chem-E-Car. The stopping mechanism is Arduino-based, utilizing a sulfur clock reaction to precisely control the car’s halt. This reaction-driven approach ensures accurate timing and chemical kinetics control.",
   powerSource:
     "Microbial Fuel Cells (MFCs) generate electricity by utilizing anaerobic bacteria to oxidize organic matter, releasing electrons. These electrons flow through an external circuit from the anode to the cathode, where they combine with protons which passes through proton exchange membrane and oxygen to form water, completing the electrochemical circuit.This continuous electron flow generates a steady electric current, which can be harnessed to power electrical devices or stored for later use. Although MFCs provide sustainable energy, they generate low and fluctuating power. To power the Chem-E-Car, this energy is stored in a lead-acid battery, which provides a stable, continuous output. The lead-acid battery is charged by the MFC using a diode switch or power management system(PMS), ensuring sufficient power to run the car.",
   stoppingMechanism:

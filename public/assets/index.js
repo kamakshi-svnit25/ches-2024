@@ -74,6 +74,11 @@ import aneCar from "./aneCar.jpg";
 import chemTeam from "./chemTeam.jpg";
 import aneTeam from "./aneTeam.jpg";
 import alluTeam from "./alluTeam.jpg";
+import chemTeam24_1 from "./chemTeam24_1.jpg";
+import chemTeam24_2 from "./chemTeam24_2.jpg";
+import chemTeam24_3 from "./chemTeam24_3.jpg";
+import chemTeam24_4 from "./chemTeam24_4.jpg";
+import chemTeam24_5 from "./chemTeam24_5.jpeg";
 import aditya from "./aditya.jpg";
 import abhay from "./abhay.jpg";
 import abhishek from "./abhishek.jpg";
@@ -111,6 +116,10 @@ import shrushti from "./shrushtimeshram2425.jpeg";
 import vaishvik from "./vaishvikkothia2425.jpeg";
 import Himanshu2425 from "./himanshu2425.jpeg";
 import Rahul2425 from "./rahul2425.jpeg";
+import dolly from "./dolly.jpg";
+import navneet from "./navneet.jpg";
+import Palak from "./Palak.jpeg";
+import Yatharth from "./Yatharth.jpeg";
 
 export {
   EurekaHome,
@@ -123,6 +132,11 @@ export {
   alluCar,
   alluTeam,
   chemTeam,
+  chemTeam24_1,
+  chemTeam24_2,
+  chemTeam24_3,
+  chemTeam24_4,
+  chemTeam24_5,
   aneCar,
   aneTeam,
   namrata,
@@ -211,15 +225,19 @@ export {
   surbhi,
   dhananjay,
   kaveri,
- atharva,
- nisha,
- priyansu,
- vrushti,
- harish,
- deval,
- shrushti,
- vaishvik,
- Himanshu2425,
- Rahul2425,
- ChESlogo,
+  atharva,
+  nisha,
+  priyansu,
+  vrushti,
+  harish,
+  deval,
+  shrushti,
+  vaishvik,
+  Himanshu2425,
+  Rahul2425,
+  ChESlogo,
+  dolly,
+  navneet,
+  Palak,
+  Yatharth, 
 };
