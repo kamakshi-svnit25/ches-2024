@@ -126,7 +126,7 @@ export async function getNotifications() {
   });
 }
 const FacultyQuery = groq`
-*[_type == "faculty"] | order(name asc){
+*[_type == "faculty"]{
   position,
    name,
    "ImageUrl": image.asset->url, 
